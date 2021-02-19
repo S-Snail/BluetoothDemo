@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zixiu.bluetooth">
+
+    <!--  使用蓝牙权限  -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!--  扫描蓝牙设备，或者操作蓝牙设备  -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!--  模糊定位，仅作用于6.0+  -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--  精准定位，仅作用于6.0+  -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <application>
+        <activity android:name=".traditional_bluetooth.TraditionalBtActivity"></activity>
+    </application>
+
+</manifest>
